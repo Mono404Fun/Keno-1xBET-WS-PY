@@ -1,9 +1,6 @@
 # 🔮 Keno AI: Advanced 1xBet Keno Number Analyzer  
 
-![Python](https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white)  
-![Selenium](https://img.shields.io/badge/selenium-4.0+-green?logo=selenium)  
-![License](https://img.shields.io/badge/license-MIT-orange)  
-![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)  
+![Python](https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white)  ![Selenium](https://img.shields.io/badge/selenium-4.0+-green?logo=selenium)  ![License](https://img.shields.io/badge/license-MIT-orange)  ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)  
 
 An intelligent web scraper and statistical analyzer for identifying number patterns in 1xBet/TVBet Keno games.  
 
