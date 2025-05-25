@@ -115,8 +115,6 @@ Expected output:
 
 ## 📊 Sample Output
 
-![Frequency Analysis](https://i.imgur.com/JQ8W5xO.png)
-
 ```text
 🔥 Hot Numbers (Most Frequent)
 ┏━━━━━━━━┳━━━━━━━━━━━┓
