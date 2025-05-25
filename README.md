@@ -36,7 +36,7 @@ An intelligent web scraper and statistical analyzer for identifying number patte
 - [Chrome Browser](https://www.google.com/chrome/)
 - ChromeDriver ([Download](https://chromedriver.chromium.org/downloads))
 
-## Step-by-Step Setup
+### Step-by-Step Setup
 
 1. **Clone the repository**:
    ```bash
@@ -45,58 +45,58 @@ An intelligent web scraper and statistical analyzer for identifying number patte
    ```
 
 2. Set Up Virtual Environment
-```bash
-# Windows
-python -m venv venv
-.\venv\Scripts\activate
-
-# macOS/Linux
-python3 -m venv venv
-```
+   ```bash
+   # Windows
+   python -m venv venv
+   .\venv\Scripts\activate
+   
+   # macOS/Linux
+   python3 -m venv venv
+   ```
 
 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-source venv/bin/activate
-```
+   ```bash
+   pip install -r requirements.txt
+   source venv/bin/activate
+   ```
 
 4. Configure ChromeDriver
 
-1. Check Chrome version at `chrome://settings/help`
-2. Download matching driver from [chromedriver.chromium.org](https://chromedriver.chromium.org/downloads)
-3. Choose one method:
-
-**Method A**: Project root
-```bash
-mv chromedriver /project/root/folder/
-```
-
-**Method B**: System PATH
-```bash
-sudo mv chromedriver /usr/local/bin/
-```
-
-**Method C**: Custom path (edit config.ini)
-```ini
-[selenium]
-chromedriver_path = C:\path\to\chromedriver.exe
-```
+   1. Check Chrome version at `chrome://settings/help`
+   2. Download matching driver from [chromedriver.chromium.org](https://chromedriver.chromium.org/downloads)
+   3. Choose one method:
+   
+      **Method A**: Project root
+      ```bash
+      mv chromedriver /project/root/folder/
+      ```
+      
+      **Method B**: System PATH
+      ```bash
+      sudo mv chromedriver /usr/local/bin/
+      ```
+      
+      **Method C**: Custom path (edit config.ini)
+      ```ini
+      [selenium]
+      chromedriver_path = C:\path\to\chromedriver.exe
+      ```
 
 5. Verify Installation
 
-```bash
-# Test Selenium
-python -c "from selenium import webdriver; driver = webdriver.Chrome(); driver.quit()"
+   ```bash
+   # Test Selenium
+   python -c "from selenium import webdriver; driver = webdriver.Chrome(); driver.quit()"
+   
+   # Test dependencies
+   python -c "import pandas as pd; print('Pandas version:', pd.__version__)"
+   ```
 
-# Test dependencies
-python -c "import pandas as pd; print('Pandas version:', pd.__version__)"
-```
-
-### Expected output:
-```text
-DevTools listening on ws://127.0.0.1:.../
-Pandas version: 2.1.0
-```
+Expected output:
+   ```text
+   DevTools listening on ws://127.0.0.1:.../
+   Pandas version: 2.1.0
+   ```
 
 ## Interactive Menu:
 ```text
@@ -140,7 +140,7 @@ headless = true
 rounds_to_scrape = 50
 database_path = keno_data.db
 ```
-
+   
 
 ---
 
