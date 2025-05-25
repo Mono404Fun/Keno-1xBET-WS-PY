@@ -29,7 +29,7 @@ An intelligent web scraper and statistical analyzer for identifying number patte
 - Progress tracking during operations
 - Error handling with recovery modes
 
-  ## 🛠️ Installation Guide
+## 🛠️ Installation Guide
 
 ### Prerequisites
 - [Python 3.9+](https://www.python.org/downloads/)
