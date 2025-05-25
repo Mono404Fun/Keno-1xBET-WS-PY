@@ -47,7 +47,7 @@ An intelligent web scraper and statistical analyzer for identifying number patte
    cd keno-ai
    ```
 
-### 2. Set Up Virtual Environment
+2. Set Up Virtual Environment
 ```bash
 # Windows
 python -m venv venv
@@ -57,13 +57,13 @@ python -m venv venv
 python3 -m venv venv
 ```
 
-### 3. Install Dependencies
+3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 source venv/bin/activate
 ```
 
-### 4. Configure ChromeDriver
+4. Configure ChromeDriver
 
 1. Check Chrome version at `chrome://settings/help`
 2. Download matching driver from [chromedriver.chromium.org](https://chromedriver.chromium.org/downloads)
@@ -85,7 +85,7 @@ sudo mv chromedriver /usr/local/bin/
 chromedriver_path = C:\path\to\chromedriver.exe
 ```
 
-### 5. Verify Installation
+5. Verify Installation
 
 ```bash
 # Test Selenium
